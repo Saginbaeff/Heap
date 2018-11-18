@@ -1,1 +1,1 @@
-# Heap
+# Binary Heap
