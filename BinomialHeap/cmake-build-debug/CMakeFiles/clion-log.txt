@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\C_Projects\BinomialHeap
+-- Found PythonInterp: C:/Users/РђР·Р°С‚/AppData/Local/Programs/Python/Python37-32/python.exe (found version "3.7.1") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/C_Projects/BinomialHeap/cmake-build-debug

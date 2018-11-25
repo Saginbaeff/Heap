@@ -1,0 +1,1 @@
+-IC:/C_Projects/BinomialHeap/lib/googletest-master/googlemock/include -isystem C:/C_Projects/BinomialHeap/lib/googletest-master/googletest/include -isystem C:/C_Projects/BinomialHeap/lib/googletest-master/googletest 
