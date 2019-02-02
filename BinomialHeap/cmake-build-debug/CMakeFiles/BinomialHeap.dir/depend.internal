@@ -39,7 +39,7 @@ CMakeFiles/BinomialHeap.dir/main.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/C_Projects/BinomialHeap/main.cpp
+ C:/C++/git/Heap/BinomialHeap/main.cpp
 CMakeFiles/BinomialHeap.dir/tests/Test.cpp.obj
  ../lib/googletest-master/googlemock/include/gmock/gmock-actions.h
  ../lib/googletest-master/googlemock/include/gmock/gmock-cardinalities.h
@@ -78,6 +78,6 @@ CMakeFiles/BinomialHeap.dir/tests/Test.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- C:/C_Projects/BinomialHeap/src/BinomialHeap.h
- C:/C_Projects/BinomialHeap/src/BinomialHeap.tpp
- C:/C_Projects/BinomialHeap/tests/Test.cpp
+ C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.h
+ C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.tpp
+ C:/C++/git/Heap/BinomialHeap/tests/Test.cpp

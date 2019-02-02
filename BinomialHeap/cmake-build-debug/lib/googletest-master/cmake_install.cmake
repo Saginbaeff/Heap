@@ -1,4 +1,4 @@
-# Install script for directory: C:/C_Projects/BinomialHeap/lib/googletest-master
+# Install script for directory: C:/C++/git/Heap/BinomialHeap/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/C_Projects/BinomialHeap/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("C:/C++/git/Heap/BinomialHeap/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

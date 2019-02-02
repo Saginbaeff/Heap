@@ -23,7 +23,7 @@ namespace {
     };
 }
 
-TEST_F(ClassDeclaration, Test1){
+TEST_F(ClassDeclaration, Insert_and_extract_test){
     BinomialHeap<int> My_Heap;
     std::vector<int> a;
     std::vector<int> test = {66, 94, 12, 75, 29, 77, 44, 84, 8, 75, 37, 83, 51, 76, 30};
@@ -37,7 +37,7 @@ TEST_F(ClassDeclaration, Test1){
     }
 }
 
-TEST_F(ClassDeclaration, Test2){
+TEST_F(ClassDeclaration, Change_test){
     BinomialHeap<int> My_Heap;
     std::vector<int> a;
     std::vector<int> b;
@@ -56,7 +56,7 @@ TEST_F(ClassDeclaration, Test2){
     }
 }
 
-TEST_F(ClassDeclaration, Test3){
+TEST_F(ClassDeclaration, Merge_test){
     BinomialHeap<int> A;
     BinomialHeap<int> B;
     std::vector<int> c;
@@ -68,14 +68,14 @@ TEST_F(ClassDeclaration, Test3){
         B.Insert(i);
         c.push_back(i);
     }
-    A.Merge(&B);
+    A.Merge(B);
     ASSERT_EQ(true, B.IsEmpty());
     for (int i = 0; i < 20; i++){
         ASSERT_EQ(c[i], A.ExtractMin());
     }
 }
 
-TEST_F(ClassDeclaration, Test4){
+TEST_F(ClassDeclaration, Delete_test){
     BinomialHeap<int> A;
     std::vector<int> c;
     std::vector<BinomialHeap<int>::Pointer> ptr(10);
@@ -94,7 +94,7 @@ TEST_F(ClassDeclaration, Test4){
     }
 }
 
-TEST_F(ClassDeclaration, Test5){
+TEST_F(ClassDeclaration, Exceptions_test){
     BinomialHeap<int> A;
     int t = 1;
     int f = 2;

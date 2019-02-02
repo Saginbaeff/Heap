@@ -486,19 +486,19 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/C_Projects/BinomialHeap/src/BinomialHeap.h
+C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.h
 assert.h
 -
 stdexcept
 -
-memory
--
 iostream
+-
+memory
 -
 BinomialHeap.tpp
-C:/C_Projects/BinomialHeap/src/BinomialHeap.tpp
+C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.tpp
 
-C:/C_Projects/BinomialHeap/src/BinomialHeap.tpp
+C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.tpp
 assert.h
 -
 stdexcept
@@ -508,13 +508,13 @@ memory
 iostream
 -
 
-C:/C_Projects/BinomialHeap/tests/Test.cpp
+C:/C++/git/Heap/BinomialHeap/tests/Test.cpp
 gtest/gtest.h
 -
 gmock/gmock.h
 -
 ../src/BinomialHeap.h
-C:/C_Projects/BinomialHeap/src/BinomialHeap.h
+C:/C++/git/Heap/BinomialHeap/src/BinomialHeap.h
 queue
 -
 vector
