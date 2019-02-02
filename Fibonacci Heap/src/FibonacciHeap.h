@@ -15,7 +15,7 @@ public:
         std::shared_ptr<Node> child_;
         T key_;
         size_t degree_;
-        bool mark_;
+        bool is_marked_;
 
     public:
         Node(T &init_value) {
@@ -25,7 +25,7 @@ public:
             child_.reset();
             key_ = init_value;
             degree_ = 0;
-            mark_ = false;
+            is_marked_ = false;
         }
         ~Node(){
             parrent_.reset();
@@ -60,7 +60,7 @@ public:
 
     Pointer Insert(T &init_value);
 
-    void Merge(FibonacciHeap *otherHeap);
+    void Merge(FibonacciHeap &otherHeap);
 
     T ExtractMin();
 
