@@ -495,6 +495,8 @@ stdexcept
 -
 memory
 -
+vector.h
+C:/C++/Heap/src/vector.h
 Heap.tpp
 C:/C++/Heap/src/Heap.tpp
 
@@ -506,6 +508,16 @@ assert.h
 stdexcept
 -
 memory
+-
+
+C:/C++/Heap/src/vector.h
+assert.h
+-
+vector.tpp
+C:/C++/Heap/src/vector.tpp
+
+C:/C++/Heap/src/vector.tpp
+assert.h
 -
 
 C:/C++/Heap/tests/Test.cpp

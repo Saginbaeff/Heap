@@ -79,5 +79,7 @@ CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../lib/googletest-master/googletest/incl
 CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../src/Heap.h
 CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../src/Heap.tpp
+CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../src/vector.h
+CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../src/vector.tpp
 CMakeFiles/Heap.dir/tests/Test.cpp.obj: ../tests/Test.cpp
 

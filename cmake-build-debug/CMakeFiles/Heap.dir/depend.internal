@@ -80,4 +80,6 @@ CMakeFiles/Heap.dir/tests/Test.cpp.obj
  ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
  C:/C++/Heap/src/Heap.h
  C:/C++/Heap/src/Heap.tpp
+ C:/C++/Heap/src/vector.h
+ C:/C++/Heap/src/vector.tpp
  C:/C++/Heap/tests/Test.cpp

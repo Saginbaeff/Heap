@@ -23,7 +23,7 @@ namespace {
     };
 }
 
-TEST_F(ClassDeclaration, Test1){
+TEST_F(ClassDeclaration, Insert_and_extract_test){
     Heap<int> My_Heap;
     std::vector<int> a;
     std::vector<int> test = {66, 94, 12, 75, 29, 77, 44, 84, 8, 75, 37, 83, 51, 76, 30};
@@ -37,7 +37,7 @@ TEST_F(ClassDeclaration, Test1){
     }
 }
 
-TEST_F(ClassDeclaration, Test2){
+TEST_F(ClassDeclaration, Constructor_test){
     std::vector<int> a;
     std::vector<int> b;
     std::vector<int> test = {66, 94, 12, 75, 29, 77, 44, 84, 8, 75, 37, 83, 51, 76, 30};
@@ -52,7 +52,7 @@ TEST_F(ClassDeclaration, Test2){
     }
 }
 
-TEST_F(ClassDeclaration, Test3){
+TEST_F(ClassDeclaration, Change_test){
     Heap<int> My_Heap;
     std::vector<int> a;
     std::vector<int> b;
@@ -71,7 +71,7 @@ TEST_F(ClassDeclaration, Test3){
     }
 }
 
-TEST_F(ClassDeclaration, Test4){
+TEST_F(ClassDeclaration, Delete_test){
     Heap<int> My_Heap;
     Heap<int>::Pointer f;
     for (int i = 0; i < 15; i++){
